@@ -22,8 +22,8 @@ vpc:
     publicAccess: false # Cluster에 대한 외부 접속을 차단합니다.
     privateAccess: true # VPC 내부 접속을 허용합니다.
 managedNodeGroups:
-  - name: eks-nodegroup
-    instanceType: t2.micro
+  - name: csm-eks-nodegroup
+    instanceType: t3.medium
     availabilityZones:
       - ap-northeast-2a
       - ap-northeast-2b
